@@ -1,0 +1,6 @@
+train: ../../data/real/package_seg/images/train
+val: ../../data/real/package_seg/images/val
+test: ../../data/real/package_seg/images/test
+
+names:
+  0: package
