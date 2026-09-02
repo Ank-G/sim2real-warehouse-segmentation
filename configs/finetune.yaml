@@ -1,0 +1,28 @@
+experiment:
+  name: model_c_finetuned
+  description: >
+    Model B adapted to the real domain using a fixed set
+    of 20 labelled real warehouse images.
+
+model:
+  initialization: results/model_b_randomized/weights/best.pt
+
+data:
+  dataset: configs/datasets/real_finetune.yaml
+
+training:
+  epochs: 30
+  imgsz: 640
+  batch: 4
+  patience: 10
+  workers: 4
+  seed: 42
+
+  optimizer: auto
+
+  cache: false
+  amp: true
+
+output:
+  project: results
+  name: model_c_finetuned

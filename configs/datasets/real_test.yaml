@@ -1,0 +1,5 @@
+train: ../../data/real/test/images
+val: ../../data/real/test/images
+
+names:
+  0: box

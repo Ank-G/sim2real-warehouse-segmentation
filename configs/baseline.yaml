@@ -1,0 +1,30 @@
+experiment:
+  name: model_a_baseline
+  description: >
+    YOLO26 nano instance-segmentation model trained only on
+    baseline synthetic warehouse box imagery.
+
+model:
+  architecture: yolo26n-seg.pt
+
+data:
+  dataset: configs/datasets/synthetic_baseline.yaml
+
+training:
+  epochs: 100
+  imgsz: 640
+  batch: 16
+  patience: 20
+  workers: 8
+  seed: 42
+
+  pretrained: true
+
+  optimizer: auto
+
+  cache: false
+  amp: true
+
+output:
+  project: results
+  name: model_a_baseline

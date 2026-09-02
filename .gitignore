@@ -1,0 +1,46 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Ultralytics temporary/default outputs
+runs/
+
+# Datasets
+data/real/
+data/synthetic/
+
+# Model weights
+*.pt
+weights/
+
+# Generated Isaac datasets
+isaac/output/
+isaac/outputs/
+synthetic_output/
+
+# Cache
+*.cache
+
+# Large/intermediate files
+*.tar
+*.tar.gz
+*.zip
+
+# Keep final metrics and qualitative results,
+# but ignore other generated result folders
+results/model_a_baseline/
+results/model_b_randomized/
+results/model_c_finetuned/
+results/model_c_finetuned_v2/

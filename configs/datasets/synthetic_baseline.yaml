@@ -1,0 +1,5 @@
+train: ../../data/synthetic/baseline/train/images
+val: ../../data/synthetic/baseline/val/images
+
+names:
+  0: box

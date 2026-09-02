@@ -1,0 +1,5 @@
+train: ../../data/synthetic/randomized/train/images
+val: ../../data/synthetic/randomized/val/images
+
+names:
+  0: box

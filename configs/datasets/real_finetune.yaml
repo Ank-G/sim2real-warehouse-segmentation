@@ -1,0 +1,5 @@
+train: ../../data/real/finetune_20/images
+val: ../../data/real/raw/valid/images
+
+names:
+  0: box
