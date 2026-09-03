@@ -23,7 +23,6 @@ The main finding is that **adding a very small amount of real data produced a la
     <td width="30%"><img alt="572_zl20230718" src="https://github.com/user-attachments/assets/c38e881d-b119-425a-94c5-5d08dda79730" /></td>
   </tr>
 </table>
----
 
 ## Motivation
 
