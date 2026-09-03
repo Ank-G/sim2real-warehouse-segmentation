@@ -1,0 +1,7 @@
+path: /home/ubuntu/sim2real-warehouse-segmentation/data/synthetic/baseline_v2
+
+train: images/train
+val: images/val
+
+names:
+  0: package

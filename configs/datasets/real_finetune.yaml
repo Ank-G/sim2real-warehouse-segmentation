@@ -1,5 +1,8 @@
-train: ../../data/real/finetune_20/images
-val: ../../data/real/raw/valid/images
+path: /home/ubuntu/sim2real-warehouse-segmentation
+
+train: data/real/package_finetune_20/images
+val: data/real/package_seg/images/val
+test: data/real/package_seg/images/test
 
 names:
-  0: box
+  0: package

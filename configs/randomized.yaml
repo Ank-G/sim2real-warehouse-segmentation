@@ -1,14 +1,11 @@
 experiment:
-  name: model_b_randomized
-  description: >
-    YOLO26 nano instance-segmentation model trained only on
-    domain-randomized synthetic warehouse box imagery.
+  name: model_b_randomized_v2
 
 model:
   architecture: yolo26n-seg.pt
 
 data:
-  dataset: configs/datasets/synthetic_randomized.yaml
+  dataset: configs/datasets/synthetic_randomized_v2.yaml
 
 training:
   epochs: 100
@@ -17,14 +14,11 @@ training:
   patience: 20
   workers: 8
   seed: 42
-
   pretrained: true
-
   optimizer: auto
-
   cache: false
   amp: true
 
 output:
   project: results
-  name: model_b_randomized
+  name: model_b_randomized_v2

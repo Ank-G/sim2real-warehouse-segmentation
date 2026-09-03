@@ -1,0 +1,11 @@
+metric,value
+synthetic_images,50
+synthetic_instances,126
+synthetic_mean_instances_per_image,2.52
+synthetic_median_bbox_area,0.0325679732665
+synthetic_p95_bbox_area,0.11907501446524998
+real_images,1920
+real_instances,6625
+real_mean_instances_per_image,3.4505208333333335
+real_median_bbox_area,0.023006863104248047
+real_p95_bbox_area,0.09442652857738078
