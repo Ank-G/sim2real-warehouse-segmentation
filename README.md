@@ -8,8 +8,21 @@ The project compares three training strategies:
 - **Model B — Domain-randomized synthetic:** trained only on a more strongly randomized synthetic distribution.
 - **Model C — B + 20 real images:** Model B fine-tuned on only 20 real Package-Seg training images.
 
-The main finding is that **stronger domain randomization did not improve zero-shot transfer by itself**, while adding a very small amount of real data produced a large improvement.
+The main finding is that **adding a very small amount of real data produced a large improvement.**
 
+| Synthetic data | Instance segmentation masks | 
+|:---:|:---:|
+| <img width="512" alt="rgb_0000" src="https://github.com/user-attachments/assets/2a98c435-6857-4ef9-9a83-bd039bfebe26" /> | <img width="512" alt="instance_segmentation_0000" src="https://github.com/user-attachments/assets/5808a3d1-cc33-46a1-b1cc-7d3456099b37"/> |
+
+<table>
+  <tr>
+    <th colspan="2">Real images test set</th>
+  </tr>
+  <tr>
+    <td width="30%"><img alt="frame_5106" src="https://github.com/user-attachments/assets/8cad45cd-7e9e-443c-bb21-de02a6e148b2" /></td>
+    <td width="30%"><img alt="572_zl20230718" src="https://github.com/user-attachments/assets/c38e881d-b119-425a-94c5-5d08dda79730" /></td>
+  </tr>
+</table>
 ---
 
 ## Motivation
